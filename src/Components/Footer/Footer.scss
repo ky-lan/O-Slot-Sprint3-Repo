@@ -1,0 +1,61 @@
+.footer {
+  padding: 1rem 6rem;
+  background-color: rgb(36, 35, 35);
+  color: white;
+  border: 3px solid white;
+  border-radius: 13px;
+
+  .top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    i {
+      color: white;
+      font-size: 3rem;
+      margin-left: 1rem;
+    }
+
+    i:hover {
+      color: #4e65f7;
+    }
+
+    h1 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      svg {
+        font-size: 0.1rem;
+        margin: 0.3rem auto auto 0.3rem;
+      }
+    }
+  }
+
+  .bottom {
+    padding-top: 1rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    div {
+      display: flex;
+      flex-direction: row;
+
+      a {
+        color: white;
+        text-decoration: none;
+        margin-right: 1.5rem;
+        font-size: 1.1rem;
+      }
+
+      a:hover {
+        color: #4e65f7;
+        text-decoration: underline;
+      }
+    }
+  }
+}

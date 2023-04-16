@@ -1,0 +1,49 @@
+.confirmation-container {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .apporved {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: #198754;
+    color: rgb(240, 240, 240);
+  }
+
+  .output-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1rem 1rem;
+
+    h4 {
+      margin: 0.2rem auto;
+    }
+  }
+
+  .payment-container {
+    width: 30%;
+
+    .payment-button {
+      width: 100%;
+      padding: 1rem;
+      background-color: rgba(0, 0, 0, 0.13);
+      border-radius: 13px;
+      border: none;
+      font-size: 1.2rem;
+
+      &:hover {
+        color: blue;
+        text-decoration: underline;
+        font-weight: bold;
+        cursor: pointer;
+        border: 1px solid rgba(0, 0, 0, 0.13);
+      }
+    }
+  }
+}
